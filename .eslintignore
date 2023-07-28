@@ -1,0 +1,5 @@
+target
+.eslintrc.js
+management-console/build
+node_modules
+**/node_modules

@@ -1,0 +1,16 @@
+[features]
+seeds = false
+#[programs.localnet]
+#raffle = "rafLqgkRoSGQWSsyBYh65BvNSCRYfxp7mDtEmW8CqK1"
+[programs.mainnet]
+raffle = "rafLqgkRoSGQWSsyBYh65BvNSCRYfxp7mDtEmW8CqK1"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/wally/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
